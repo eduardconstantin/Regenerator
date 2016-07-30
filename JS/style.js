@@ -2,7 +2,7 @@ $(document).ready(function() {
 
     Height();
     setTimeout(function() {
-        $( ".begin" ).fadeIn( 4000, function() {});
+        $( ".begin" ).fadeIn( 1000, function() {});
     }, 200);
     
 
