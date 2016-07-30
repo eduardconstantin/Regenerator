@@ -90,7 +90,7 @@ header{
     z-index: 4;
 }
 button.begin{
-    display: inline-block;
+    display: none;
     position: absolute;
     left: 0;
     right: 0;
