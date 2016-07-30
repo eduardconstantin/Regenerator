@@ -1,14 +1,19 @@
 $(document).ready(function() {
 
     Height();
-    $( ".beggin" ).click(function() {
+    setTimeout(function() {
+        $( ".begin" ).fadeIn( 4000, function() {});
+    }, 200);
+    
+
+    $( ".begin" ).click(function() {
         
         setTimeout(function() {
             demo.init();
             $( "canvas" ).fadeIn( 5000, function() {});
         }, 19500);
        
-       $( ".beggin" ).fadeOut( "slow", function() {});
+       $( ".begin" ).fadeOut( "slow", function() {});
        setTimeout(function() {
             $( ".bg" ).fadeOut( 3000, function() {});
             setTimeout(function() {
