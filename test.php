@@ -1,6 +1,6 @@
 <?php
 $host = 'serverwebtest.database.windows.net';
-$username = 'testadmin';
+$username = 'testadmin@serverwebtest.database.windows.net';
 $password = 'Admintest18';
 
 //Establishes the connection
