@@ -7,19 +7,19 @@
     <title>Test</title>
 </head>
 <body>
-    <?php
-$servername = 'serverwebtest.database.windows.net';
+     <?php
+$host = 'serverwebtest.database.windows.net';
 $username = 'testadmin@serverwebtest.database.windows.net';
 $password = 'Admintest18';
-
-// Create connection
-$conn = mysqli_connect($servername, $username, $password);
-
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-} 
-echo "Connected successfully";
+//Establishes the connection
+$conn = mysqli_init();
+mysqli_connect($conn, $host, $username, $password);
+if (mysqli_connect_errno($conn)) {
+die('Failed to connect to MySQL: '.mysqli_connect_error());
+}
+echo 'Conectat cu succes';
+//Close the connection
+mysqli_close($conn);
 ?>
 </body>
 </html>
