@@ -4,7 +4,7 @@ $username = "testadmin";
 $password = "Admintest18";
 
 // Create connection
-$conn = mssql_connect($servername, $username, $password);
+$conn = new PDO($servername, $username, $password);
 
 // Check connection
 if ($conn->connect_error) {
