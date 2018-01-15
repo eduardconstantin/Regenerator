@@ -1,32 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Test</title>
+	<meta charset="utf-8">
+	<title>Formular</title>
 </head>
 <body>
-     <?php
-$host = 'serverwebtest.database.windows.net';
-$username = 'testadmin@serverwebtest.database.windows.net';
-$password = 'Admintest18';
-//Establishes the connection
-$conn = mysqli_init();
-mysqli_connect($host, $username, $password);
-or
-die(“Nu ma pot conecta!”);
-
-echo<<<FORMULAR
-		<form method=”POST”>
-			Nume:<input type=”text” name=”nume”><br>
-Prenume:<input type=”text” name=”prenume”><br>
-			Email:<input type=”text” name=”email”><br>
-<input type=”hidden” name=”op” value=”i”>
-<input type=”submit” value=”Trimite”>
-</form>
-FORMULAR;
-
-?>
+	<form action="test.php" method="POST">
+		Nume:<input type="text" name="nume"><br>
+		Prenume:<input type="text" name="prenume"><br>
+		Email:<input type="text" name="email"><br>
+		<input type="submit" value="Trimite">
+	</form>
 </body>
 </html>
+
