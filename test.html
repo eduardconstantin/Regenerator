@@ -13,11 +13,11 @@ $username = 'testadmin@serverwebtest.database.windows.net';
 $password = 'Admintest18';
 //Establishes the connection
 $conn = mysqli_init();
-mysqli_connect($conn, $host, $username, $password);
+mysqli_connect($host, $username, $password);
 if (mysqli_connect_errno($conn)) {
 die('Failed to connect to MySQL: '.mysqli_connect_error());
 }
-echo '<p>Conectat cu succes</p>';
+echo 'Conectat cu succes';
 //Close the connection
 mysqli_close($conn);
 ?>
