@@ -1,5 +1,5 @@
 <?php
-$servername = "serverwebtest.database.windows.net";
+$servername = "tcp:serverwebtest.database.windows.net";
 $username = "testadmin";
 $password = "Admintest18";
 
@@ -11,4 +11,6 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
 echo "Connected successfully";
+
+
 ?>
