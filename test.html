@@ -17,7 +17,7 @@ mysqli_connect($conn, $host, $username, $password);
 if (mysqli_connect_errno($conn)) {
 die('Failed to connect to MySQL: '.mysqli_connect_error());
 }
-echo 'Conectat cu succes';
+echo '<p>Conectat cu succes</p>';
 //Close the connection
 mysqli_close($conn);
 ?>
