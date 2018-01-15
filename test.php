@@ -1,5 +1,5 @@
 <?php
-$servername = "serverwebtest.database.windows.net";
+$servername = "tcp:serverwebtest.database.windows.net,1433";
 $username = "testadmin";
 $password = "Admintest18";
 
