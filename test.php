@@ -1,16 +1,18 @@
 <?php
-$servername = "tcp:serverwebtest.database.windows.net";
+$servername = "serverwebtest.database.windows.net";
 $username = "testadmin";
 $password = "Admintest18";
 
 // Create connection
-$conn = new mysqli($servername, $username, $password);
+$conn = mssql_connect($servername, $username, $password);
 
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
-echo "Connected successfully";
+else{ 
+    echo "Connected successfully";
+}
 
 
 ?>
