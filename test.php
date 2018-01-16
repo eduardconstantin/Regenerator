@@ -13,7 +13,15 @@ echo 'Conectat cu succes';
 
 $sql='select * from studenti';
 $result=mysql_query($sql);
-echo $result;
+while($linie=mysql_fetch_array($result)){
+echo  '<tr>
+					<td>$contor</td>
+					<td>$linie[nume]</td>
+					<td>$linie[prenume]</td>
+          <td>$linie[email]</td>
+	     </tr>';
+}	
+
 //Close the connection
 mysqli_close($conn);
 
