@@ -11,7 +11,9 @@ die('Failed to connect to MySQL: '.mysqli_connect_error());
 }
 echo 'Conectat cu succes';
 
-
+$sql=”select * from studenti”;
+$result=mysql_query($sql);
+echo $result;
 //Close the connection
 mysqli_close($conn);
 
