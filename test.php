@@ -1,3 +1,5 @@
+<html>
+	<body>
 <?php
 $host = 'serverwebtest.database.windows.net';
 $username = 'testadmin@serverwebtest.database.windows.net';
@@ -15,7 +17,7 @@ $sql='select * from studenti';
 $result=mysql_query($sql);
 while($linie=mysql_fetch_array($result)){
 echo  '<tr>
-					<td>$contor</td>
+				
 					<td>$linie[nume]</td>
 					<td>$linie[prenume]</td>
           <td>$linie[email]</td>
@@ -26,3 +28,5 @@ echo  '<tr>
 mysqli_close($conn);
 
 ?>
+</body>
+</html>
