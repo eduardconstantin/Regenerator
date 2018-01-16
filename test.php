@@ -1,7 +1,7 @@
 <?php
 $host = 'serverwebtest.database.windows.net';
 $username = 'testadmin@serverwebtest.database.windows.net';
-$password = 'Admintest18';
+$password = 'Eduard26';
 
 //Establishes the connection
 $conn = mysqli_init();
@@ -11,7 +11,7 @@ die('Failed to connect to MySQL: '.mysqli_connect_error());
 }
 echo 'Conectat cu succes';
 
-$sql=”select * from studenti”;
+$sql='select * from studenti';
 $result=mysql_query($sql);
 echo $result;
 //Close the connection
