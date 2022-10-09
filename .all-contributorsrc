@@ -1,0 +1,25 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "trybick",
+      "name": "Tim Rybicki",
+      "avatar_url": "https://avatars.githubusercontent.com/u/39889198?v=4",
+      "profile": "https://timr.dev",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "Regenerator",
+  "projectOwner": "eduardconstantin"
+}
