@@ -80,3 +80,47 @@ function Height() {
     }
 
 }
+
+const SETTINGS = {
+    rebound: {
+        tension: 14,
+        friction: 10
+    },
+    spinner: {
+        id: 'spinner',
+        radius: 90,
+        sides: 5,
+        depth: 8,
+        colors: {
+            background: '#00272C',
+            stroke: null,
+            base: null,
+            child: '#02C39A'
+        },
+        alwaysForward: true, // When false the spring will reverse normally.
+        restAt: null, // A number from 0.1 to 0.9 || null for full rotation
+        renderBase: false
+    }
+};
+
+audiojs.events.ready(function() {
+    var audios = document.getElementsByTagName('audio');
+
+    var a1 = audiojs.create(audios[0], {
+        css: false,
+        createPlayer: {
+            markup: false,
+            playPauseClass: 'play-pauseZ',
+            scrubberClass: 'scrubberZ',
+            progressClass: 'progressZ',
+            loaderClass: 'loadedZ',
+            timeClass: 'timeZ',
+            durationClass: 'durationZ',
+            playedClass: 'playedZ',
+            errorMessageClass: 'error-messageZ',
+            playingClass: 'playingZ',
+            loadingClass: 'loadingZ',
+            errorClass: 'errorZ'
+        }
+    });
+});
