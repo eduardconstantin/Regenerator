@@ -12,6 +12,9 @@ Thank you for your interest! All types of contributions welcome. **HACK AWAY!** 
 - Create your branch from the `master` branch
 - Please open your PR with the `master` branch as the base
 
+Check out our [contributing documentation](CONTRIBUTING.md).
+If you find an issue, please report it on the [issue tracker](https://github.com/eduardconstantin/Regenerator/issues).
+
 ## Contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
