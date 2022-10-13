@@ -50,6 +50,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "Devesh-coder",
+      "name": "Devesh Agarwal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76838871?v=4",
+      "profile": "https://github.com/Devesh-coder",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
