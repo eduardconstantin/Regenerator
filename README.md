@@ -30,6 +30,7 @@ If you find an issue, please report it on the [issue tracker](https://github.com
       <td align="center"><a href="https://github.com/Kitashi14"><img src="https://avatars.githubusercontent.com/u/76878972?v=4?s=100" width="100px;" alt="Rishav Raj"/><br /><sub><b>Rishav Raj</b></sub></a><br /><a href="https://github.com/eduardconstantin/Regenerator/commits?author=Kitashi14" title="Documentation">📖</a></td>
       <td align="center"><a href="https://github.com/vishnusnathann"><img src="https://avatars.githubusercontent.com/u/16370789?v=4?s=100" width="100px;" alt="VISHNU VISWANATHAN"/><br /><sub><b>VISHNU VISWANATHAN</b></sub></a><br /><a href="https://github.com/eduardconstantin/Regenerator/commits?author=vishnusnathann" title="Documentation">📖</a></td>
       <td align="center"><a href="https://github.com/Devesh-coder"><img src="https://avatars.githubusercontent.com/u/76838871?v=4?s=100" width="100px;" alt="Devesh Agarwal"/><br /><sub><b>Devesh Agarwal</b></sub></a><br /><a href="https://github.com/eduardconstantin/Regenerator/commits?author=Devesh-coder" title="Code">💻</a></td>
+      <td align="center"><a href="https://github.com/sai-karthik-p"><img src="https://avatars.githubusercontent.com/u/54533075?v=4?s=100" width="100px;" alt="sai-karthik-p"/><br /><sub><b>sai-karthik-p</b></sub></a><br /><a href="#design-sai-karthik-p" title="Design">🎨</a></td>
     </tr>
   </tbody>
 </table>
@@ -47,6 +48,6 @@ If you find an issue, please report it on the [issue tracker](https://github.com
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
