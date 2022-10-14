@@ -289,10 +289,7 @@ table {
 }
 
 header {
-  background: linear-gradient(
-  to right, #833ab4,
-  #fd1d1d, #fcb045
- );
+  background-image: linear-gradient(to bottom, #a9f0b9, #b0f3ae, #baf6a2, #c7f895, #d6f988);
  /* background-position: 10px; */
   animation: animate 10s infinite ease-in-out;
   position: relative;
