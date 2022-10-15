@@ -35,6 +35,7 @@ If you find an issue, please report it on the [issue tracker](https://github.com
     <tr>
       <td align="center"><a href="https://github.com/amardeep911"><img src="https://avatars.githubusercontent.com/u/97588898?v=4?s=100" width="100px;" alt="Amardeep Ranjan"/><br /><sub><b>Amardeep Ranjan</b></sub></a><br /><a href="https://github.com/eduardconstantin/Regenerator/commits?author=amardeep911" title="Code">💻</a></td>
       <td align="center"><a href="https://github.com/S-Parker7000"><img src="https://avatars.githubusercontent.com/u/94473575?v=4?s=100" width="100px;" alt="Sumit Vishwakarma"/><br /><sub><b>Sumit Vishwakarma</b></sub></a><br /><a href="#audio-S-Parker7000" title="Audio">🔊</a></td>
+      <td align="center"><a href="https://github.com/Gowrishankar04"><img src="https://avatars.githubusercontent.com/u/42619656?v=4?s=100" width="100px;" alt="Gowri shankar"/><br /><sub><b>Gowri shankar</b></sub></a><br /><a href="https://github.com/eduardconstantin/Regenerator/commits?author=Gowrishankar04" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
@@ -52,6 +53,6 @@ If you find an issue, please report it on the [issue tracker](https://github.com
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
