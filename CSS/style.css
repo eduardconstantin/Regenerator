@@ -3,86 +3,26 @@
    License: none (public domain)
 */
 
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
+html, body, div, span,
+applet, object, iframe, h1,
+h2, h3, h4, h5,
+h6, p, blockquote, pre,
+a, abbr, acronym, address,
+big, cite, code, del,
+dfn, em, img, ins,
+kbd, q, s, samp,
+small, strike, strong, sub,
+sup, tt, var, b,
+u, i, center, dl,
+dt, dd, ol, ul,
+li, fieldset, form, label,
+legend, table, caption, tbody,
+tfoot, thead, tr, th,
+td, article, aside, canvas,
+details, embed, figure, figcaption,
+footer, header, hgroup, menu,
+nav, output, ruby, section,
+summary, time, mark, audio,
 video {
   margin: 0;
   padding: 0;
@@ -92,16 +32,9 @@ video {
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
+article, aside, details, figcaption,
+figure, footer, header, hgroup,
+menu, nav,
 section {
   display: block;
 }
@@ -129,164 +62,6 @@ table {
 }
 
 /*===================================================================*/
-.audiojsZ audio {
-  position: absolute;
-  left: -1px;
-}
-.audiojsZ {
-  width: 460px;
-  height: 15px;
-  background: #64ff0a;
-  overflow: hidden;
-  font-family: monospace;
-  font-size: 12px;
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  top: 0;
-  margin: auto;
-}
-.audiojsZ .play-pauseZ {
-  display: none;
-  width: 25px;
-  height: 40px;
-  padding: 4px 6px;
-  margin: 0px;
-  float: left;
-  overflow: hidden;
-  border-right: 1px solid #c00;
-}
-.audiojsZ p {
-  display: none;
-  width: 25px;
-  height: 40px;
-  margin: 0px;
-  cursor: pointer;
-}
-.audiojsZ .playZ {
-  display: block;
-}
-.audiojsZ .scrubberZ {
-  position: relative;
-  float: left;
-  width: 100%;
-  background: #fcc;
-  height: 15px;
-  margin: 0;
-  border-left: 0px;
-  border-bottom: 0px;
-  overflow: hidden;
-}
-.audiojsZ .progressZ {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  height: 15px;
-  width: 0px;
-  background: #ff9f1c;
-  z-index: 1;
-}
-.audiojsZ .loadedZ {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  height: 15px;
-  width: 0px;
-  background: #382528;
-}
-.audiojsZ .timeZ {
-  display: none;
-  float: left;
-  height: 36px;
-  line-height: 36px;
-  margin: 0px 0px 0px 6px;
-  padding: 0px 6px 0px 12px;
-  border-left: 1px solid #c00;
-  color: #600;
-  text-shadow: 1px 1px 0px rgba(125, 0, 0, 0.5);
-}
-.audiojsZ .timeZ em {
-  padding: 0px 2px 0px 0px;
-  color: #fcc;
-  font-style: normal;
-}
-.audiojsZ .timeZ strong {
-  padding: 0px 0px 0px 2px;
-  font-weight: normal;
-}
-.audiojsZ .error-messageZ {
-  float: left;
-  display: none;
-  margin: 0px 10px;
-  height: 36px;
-  width: 400px;
-  overflow: hidden;
-  line-height: 36px;
-  white-space: nowrap;
-  color: #fff;
-  text-overflow: ellipsis;
-  -o-text-overflow: ellipsis;
-  -icab-text-overflow: ellipsis;
-  -khtml-text-overflow: ellipsis;
-  -moz-text-overflow: ellipsis;
-  -webkit-text-overflow: ellipsis;
-}
-.audiojsZ .error-messageZ a {
-  color: #eee;
-  text-decoration: none;
-  padding-bottom: 1px;
-  border-bottom: 1px solid #999;
-  white-space: wrap;
-}
-
-.audiojsZ .playZ {
-  background: url("../JS/player-graphics.gif") -2px -1px no-repeat;
-}
-.audiojsZ .loadingZ {
-  background: url("../JS/player-graphics.gif") -2px -31px no-repeat;
-}
-.audiojsZ .errorZ {
-  background: url("../JS/player-graphics.gif") -2px -61px no-repeat;
-}
-.audiojsZ .pauseZ {
-  background: url("../JS/player-graphics.gif") -2px -91px no-repeat;
-}
-
-.playingZ .playZ,
-.playingZ .loadingZ,
-.playingZ .errorZ {
-  display: none;
-}
-.playingZ .pauseZ {
-  display: block;
-}
-
-.loadingZ .playZ,
-.loadingZ .pauseZ,
-.loadingZ .errorZ {
-  display: none;
-}
-.loadingZ .loadingZ {
-  display: block;
-}
-
-.errorZ .timeZ,
-.errorZ .playZ,
-.errorZ .pauseZ,
-.errorZ .scrubberZ,
-.errorZ .loadingZ {
-  display: none;
-}
-.errorZ .errorZ {
-  display: block;
-}
-.errorZ .play-pauseZ p {
-  cursor: auto;
-}
-.errorZ .error-messageZ {
-  display: block;
-}
 
 header {
   background-image: linear-gradient(to bottom, #a9f0b9, #b0f3ae, #baf6a2, #c7f895, #d6f988);
