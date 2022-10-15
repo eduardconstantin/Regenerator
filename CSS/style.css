@@ -1,28 +1,83 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span,
-applet, object, iframe, h1,
-h2, h3, h4, h5,
-h6, p, blockquote, pre,
-a, abbr, acronym, address,
-big, cite, code, del,
-dfn, em, img, ins,
-kbd, q, s, samp,
-small, strike, strong, sub,
-sup, tt, var, b,
-u, i, center, dl,
-dt, dd, ol, ul,
-li, fieldset, form, label,
-legend, table, caption, tbody,
-tfoot, thead, tr, th,
-td, article, aside, canvas,
-details, embed, figure, figcaption,
-footer, header, hgroup, menu,
-nav, output, ruby, section,
-summary, time, mark, audio,
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
 video {
   margin: 0;
   padding: 0;
@@ -32,9 +87,16 @@ video {
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption,
-figure, footer, header, hgroup,
-menu, nav,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
 section {
   display: block;
 }
@@ -65,7 +127,7 @@ table {
 
 header {
   background-image: linear-gradient(to bottom, #a9f0b9, #b0f3ae, #baf6a2, #c7f895, #d6f988);
- /* background-position: 10px; */
+  /* background-position: 10px; */
   animation: animate 10s infinite ease-in-out;
   position: relative;
   height: 100vh;
@@ -77,7 +139,7 @@ header {
   50% {
     background-position: 100% 50%;
   }
-  0%{
+  0% {
     background-position: 0% 50%;
   }
 }
@@ -96,7 +158,7 @@ button.begin {
   bottom: 0;
   top: 0;
   margin: auto;
-  background-color: 	#c2e16c;
+  background-color: #c2e16c;
   z-index: 5;
   text-align: center;
   height: 50px;
@@ -125,7 +187,7 @@ button.begin {
 .text h1,
 .text p {
   display: none;
-  color: rgba(248, 184, 139);
+  color: #2292a4;
   font-family: "Roboto";
 }
 .text h1 {
@@ -222,7 +284,7 @@ button.begin {
 .hvr-ripple-in:before {
   content: "";
   position: absolute;
-  border: 	#84c479 solid 4px;
+  border: #84c479 solid 4px;
   border-radius: 25px;
   top: -12px;
   right: -12px;
