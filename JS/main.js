@@ -10,7 +10,8 @@ $(document).ready(function () {
       setTimeout(function () {
         $(".audio").trigger("play");
       }, 2000);
-    }, 18000);
+       $(".flower").fadeIn(2000, function () {});
+    }, 10000);
 
     setTimeout(function () {
       $(".text h1").fadeIn(1000, function () {});
@@ -26,19 +27,6 @@ $(document).ready(function () {
       $(".text p.first").fadeOut(2000, function () {});
     }, 9000);
 
-    setTimeout(function () {
-      $(".hands").fadeIn(5000, function () {});
-    }, 5000);
-    setTimeout(function () {
-      $(".hands").fadeOut(2000, function () {});
-    }, 16000);
-
-    setTimeout(function () {
-      $(".text p.second").fadeIn(3000, function () {});
-    }, 9800);
-    setTimeout(function () {
-      $(".text p.second").fadeOut(2000, function () {});
-    }, 16000);
   });
 });
 

@@ -15,6 +15,7 @@
     bottom: 0;
     top: 0;
     margin: auto;
+    display: none
   }
   .audiojsZ .play-pauseZ {
     display: none;
@@ -46,6 +47,7 @@
     border-left: 0px;
     border-bottom: 0px;
     overflow: hidden;
+    display: none
   }
   .audiojsZ .progressZ {
     position: absolute;
