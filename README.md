@@ -1,15 +1,20 @@
-# Regenerator
+# Regenerator 
 
-Website to rengerate your body and soul.
+Website to regenerate your body and soul - An attempt to calm your emotions and make you stress-free with some tactical instructions.
 
 ![demo](./IMG/demo.png)
 
+### Star the Repo (if you like the idea)
 ## Contributing
 
 Thank you for your interest! All types of contributions welcome. **HACK AWAY!** 🔨🔨🔨
 
-- Fork and clone this repository
-- Create your branch from the `master` branch
+#### Guidelines to contribute:
+
+- Fork the repository
+- Clone the repository using url available at `<> Code` 
+- Create your branch apart from the `master` branch
+- Commit your changes and push it to the repo
 - Please open your PR with the `master` branch as the base
 
 Check out our [contributing documentation](CONTRIBUTING.md).
