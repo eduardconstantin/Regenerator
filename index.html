@@ -34,47 +34,49 @@
     />
   </head>
   <body>
-    <header>
-      <div class="bg">
-        <button class="begin hvr-ripple-in">Begin Relaxation</button>
-        <div class="text">
-          <h1><b>Regeneration</b> will begin shortly.</h1>
-          <p class="first">Close your eyes and prepare your body.</p>
+    <div class="main-container">
+      <header>
+        <div class="bg">
+          <button class="begin hvr-ripple-in">Begin Relaxation</button>
+          <div class="text">
+            <h1><b>Regeneration</b> will begin shortly.</h1><br>
+            <p class="first">Close your eyes and prepare your body.</p>
+          </div>
         </div>
-      </div>
-      <div class="audiojsZ">
-        <audio
-          class="audio"
-          src="./MP3/onehour-newmusic.mp3"
-          preload="auto"
-        ></audio>
-        <div class="play-pauseZ">
-          <p class="playZ"></p>
-          <p class="pauseZ"></p>
-          <p class="loadingZ"></p>
-          <p class="errorZ"></p>
+        <div class="audiojsZ">
+          <audio
+            class="audio"
+            src="./MP3/onehour-newmusic.mp3"
+            preload="auto"
+          ></audio>
+          <div class="play-pauseZ">
+            <p class="playZ"></p>
+            <p class="pauseZ"></p>
+            <p class="loadingZ"></p>
+            <p class="errorZ"></p>
+          </div>
+          <div class="scrubberZ">
+            <div class="progressZ"></div>
+            <div class="loadedZ"></div>
+          </div>
+          <div class="timeZ">
+            <em class="playedZ">0</em>/<strong class="durationZ">0</strong>
+          </div>
+          <div class="error-messageZ"></div>
         </div>
-        <div class="scrubberZ">
-          <div class="progressZ"></div>
-          <div class="loadedZ"></div>
-        </div>
-        <div class="timeZ">
-          <em class="playedZ">0</em>/<strong class="durationZ">0</strong>
-        </div>
-        <div class="error-messageZ"></div>
-      </div>
-    </header>
-    <section class="flower">
-      <div class="petals"></div>
-      <div class="petals"></div>
-      <div class="petals"></div>
-      <div class="petals"></div>
-      <div class="petals"></div>
-      <div class="petals"></div>
-      <div class="petals"></div>
-      <div class="petals"></div>
-      <div class="petals"></div>
-    </section>
+      </header>
+      <section class="flower">
+        <div class="petals"></div>
+        <div class="petals"></div>
+        <div class="petals"></div>
+        <div class="petals"></div>
+        <div class="petals"></div>
+        <div class="petals"></div>
+        <div class="petals"></div>
+        <div class="petals"></div>
+        <div class="petals"></div>
+      </section>
+    </div>
     <script
       src="https://code.jquery.com/jquery-3.6.1.min.js"
       integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
