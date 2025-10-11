@@ -30,22 +30,4 @@ $(document).ready(function () {
   });
 });
 
-audiojs.events.ready(function () {
-  var a1 = audiojs.create($("audio"), {
-    css: false,
-    createPlayer: {
-      markup: false,
-      playPauseClass: "play-pauseZ",
-      scrubberClass: "scrubberZ",
-      progressClass: "progressZ",
-      loaderClass: "loadedZ",
-      timeClass: "timeZ",
-      durationClass: "durationZ",
-      playedClass: "playedZ",
-      errorMessageClass: "error-messageZ",
-      playingClass: "playingZ",
-      loadingClass: "loadingZ",
-      errorClass: "errorZ",
-    },
-  });
-});
+// The audiojs.events.ready block has been removed as it is no longer necessary.

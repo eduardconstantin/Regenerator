@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- DOCUMENT META DATA -->
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
@@ -9,16 +8,11 @@
       content="width=device-width, initial-scale=1, maximum-scale=1"
     />
 
-    <!-- META DATA -->
     <title>Regenerator</title>
     <meta name="description" content="Regenerate your body and soul." />
     <meta name="keywords" content="Regenerate, body, soul, money" />
 
-    <!-- ICONS -->
     <link rel="icon" href="IMG/favicon.png" />
-    <!--[if IE]><link rel="shortcut icon" href="IMG/favicon.ico" /><![endif]-->
-
-    <!-- CSS -->
     <link
       rel="stylesheet"
       type="text/css"
@@ -26,8 +20,6 @@
       media="screen"
       title="standard"
     />
-    <link rel="stylesheet" type="text/css" href="CSS/audio.css" />
-    <!-- FONTS -->
     <link
       href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed"
       rel="stylesheet"
@@ -43,26 +35,8 @@
             <p class="first">Close your eyes and prepare your body.</p>
           </div>
         </div>
-        <div class="audiojsZ">
-          <audio
-            class="audio"
-            src="./MP3/onehour-newmusic.mp3"
-            preload="auto"
-          ></audio>
-          <div class="play-pauseZ">
-            <p class="playZ"></p>
-            <p class="pauseZ"></p>
-            <p class="loadingZ"></p>
-            <p class="errorZ"></p>
-          </div>
-          <div class="scrubberZ">
-            <div class="progressZ"></div>
-            <div class="loadedZ"></div>
-          </div>
-          <div class="timeZ">
-            <em class="playedZ">0</em>/<strong class="durationZ">0</strong>
-          </div>
-          <div class="error-messageZ"></div>
+        <div class="audio-container">
+            <audio class="audio" src="./MP3/onehour-newmusic.mp3" preload="auto" controls></audio>
         </div>
       </header>
       <section class="flower">
@@ -82,7 +56,6 @@
       integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
       crossorigin="anonymous"
     ></script>
-    <script src="JS/audio.js"></script>
     <script src="JS/main.js"></script>
   </body>
 </html>
