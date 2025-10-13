@@ -407,6 +407,19 @@ button.begin {
   filter: blur(5px);
 }
 
+.audio-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+  }
+.audio {
+  width: 80%;
+  max-width: 500px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 99px;
+  display: none;
+}
+
 @keyframes moving {
   0% {
     transform: rotateZ(0deg) scale(1);
